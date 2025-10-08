@@ -9,6 +9,10 @@ ul{
     list-style: none;
 }
 
+.bg-green {
+    background-color: rgb(229, 238, 229);
+}
+
 /* COMMON */
 
 
@@ -125,6 +129,9 @@ border:1px solid black;
     min-height:350px;
     border: 1px solid black;
 }
+
+
+/* cards */
 .row {
     display:flex;
     flex-wrap:wrap;
@@ -137,5 +144,16 @@ border:1px solid black;
 /* debug */
     min-height:200px;
     border:1px solid black;
+}
 
+
+/* debug */
+.aditional-info {
+    text-align: left;
+
+/* debug */ 
+    background-color: rgb(221, 231, 221);
+    border:1px solid black;
+    min-height:100px;
+    
 }
