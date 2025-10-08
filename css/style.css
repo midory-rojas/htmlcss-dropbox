@@ -86,6 +86,8 @@ min-height:300px;
 border:1px solid black;
 
 }
+
+/* card */
 .column {
     display: flex;
     gap: 30px;
@@ -105,11 +107,12 @@ border:1px solid black;
     padding: 80px;
 }
 
+/* immagine content */
 .col-60 {
     width:60%;
 
 /* debug */
-    background-color: rgb(200, 178, 200);
+    background-color: rgb(216, 202, 216);
     min-height:350px; 
     border: 1px solid black;
 }
@@ -118,7 +121,21 @@ border:1px solid black;
     width:40%;
 
 /* debug */
-    background-color: rgb(202, 224, 202);
+    background-color: rgb(220, 231, 220);
     min-height:350px;
     border: 1px solid black;
+}
+.row {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.col-30 {
+    width:30%;
+    margin-bottom: 20px;
+
+/* debug */
+    min-height:200px;
+    border:1px solid black;
+
 }
