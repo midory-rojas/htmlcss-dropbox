@@ -4,3 +4,16 @@
     padding:0;
     box-sizing: border-box;
 }
+/* COMMON */
+
+
+/* Layout */
+.container {
+    width:80%;
+    max-width: 1000px;
+    margin:0 auto;
+
+/* debug */
+    border:2px solid black;
+}
+/* Utilities */
