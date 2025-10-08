@@ -104,3 +104,21 @@ border:1px solid black;
     display: flex;
     padding: 80px;
 }
+
+.col-60 {
+    width:60%;
+
+/* debug */
+    background-color: rgb(200, 178, 200);
+    min-height:350px; 
+    border: 1px solid black;
+}
+
+.col-40 {
+    width:40%;
+
+/* debug */
+    background-color: rgb(202, 224, 202);
+    min-height:350px;
+    border: 1px solid black;
+}
