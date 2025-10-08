@@ -4,6 +4,11 @@
     padding:0;
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+
 /* COMMON */
 
 
@@ -16,4 +21,52 @@
 /* debug */
     border:2px solid black;
 }
+
 /* Utilities */
+.flex {
+    display:flex;
+    flex-direction: row;
+}
+
+.justify-between {
+     justify-content: space-between;
+}
+
+
+/* HEADER */
+header{
+    background-color: rgb(195, 213, 158);
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+.header-logo,
+.header-actions {
+    width:20%;    
+}
+
+.header-actions {
+    text-align: right;
+}
+
+header ul.flex {
+    gap:20px;
+}
+
+/* MAIN */
+/* Hero section */
+
+.hero-section {
+    background-color: rgb(167, 204, 219);
+    padding: 40px 0;
+}
+
+.hero-content {
+    width: 70%;
+    max-width: 700px;
+    margin:0 auto;
+
+/* debug */
+    min-height: 300px;
+    background-color: rgb(194, 187, 187);    
+}
