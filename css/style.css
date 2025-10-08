@@ -19,7 +19,7 @@ ul{
     margin:0 auto;
 
 /* debug */
-    border:2px solid black;
+    /* border:1px solid black; */
 }
 
 /* Utilities */
@@ -30,6 +30,10 @@ ul{
 
 .justify-between {
      justify-content: space-between;
+}
+.py-30 {
+    padding-top:30px;
+    padding-bottom: 30px;
 }
 
 
@@ -69,4 +73,20 @@ header ul.flex {
 /* debug */
     min-height: 300px;
     background-color: rgb(194, 187, 187);    
+}
+section {
+    border: 1px solid purple;
+}
+
+.col{
+    width: calc(100% / 3);
+
+/* debug */
+min-height:300px;
+border:1px solid black;
+
+}
+.column {
+    display: flex;
+    gap: 30px;
 }
