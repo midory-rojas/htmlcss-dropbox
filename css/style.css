@@ -76,7 +76,8 @@ header ul.flex {
 
 /* debug */
     min-height: 300px;
-    background-color: rgb(194, 187, 187);    
+    background-color: rgb(194, 187, 187);
+    border:1px solid black;    
 }
 section {
     border: 1px solid purple;
@@ -154,6 +155,28 @@ border:1px solid black;
 /* debug */ 
     background-color: rgb(221, 231, 221);
     border:1px solid black;
-    min-height:100px;
-    
+    min-height:100px;    
+}
+
+
+/* FOOTER */
+
+.small {
+    min-height:200px;
+    border:1px solid black;
+    width:calc(100% / 5);
+
+ /* debug */ 
+    background-color: rgb(238, 238, 226);   
+}
+
+footer {
+    background-color: black;
+    color:white;
+}
+
+
+/* debug */ 
+.bot {
+    border: 1px solid white;
 }
