@@ -26,6 +26,7 @@ a {
 /* Typography */
 body {
     font-family: sans-serif;
+    font-size: 1rem;
 }
 
 /* Buttons */
@@ -81,6 +82,9 @@ body {
 .justify-between {
      justify-content: space-between;
 }
+.justify-center {
+    justify-content: center;
+}
 
 .align-center {
     align-items: center;
@@ -92,6 +96,8 @@ body {
 
 .py-20 {
     padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 .mb-20 {
     margin-bottom: 20px;
@@ -99,17 +105,28 @@ body {
 .text-left {
     text-align: left;
 }
+.mt-20 {
+    margin-top: 20px;
+}
+.border {
+    border-bottom: 4px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
 
 
 
 /* HEADER */
-header{
+
+header {
     background-color: white;
     height: 80px;
     display:flex;
+    padding: 0 20px;
     justify-content: space-between;
-    padding: 25px;
 }
+
 
 
 /* MAIN */
@@ -119,9 +136,16 @@ header{
     padding-bottom: 0px;
   }
 
+  .prize-menu li{
+    margin-bottom: 10px;
+  }
+
+
 
 .col{
     width: calc(100% / 3);
+    padding-left: 15px;
+    padding-right: 15px;
 
 /* debug */
 min-height:300px;
@@ -146,7 +170,8 @@ border:1px solid black;
 }
 .card-content {
     display: flex;
-    padding: 80px;
+    flex-direction: column;
+    padding-left: 15px;
 }
 
 /* immagine content */
@@ -164,6 +189,7 @@ border:1px solid black;
 .col-image {
     width:70%;
 }
+
 
 
 /* cards */
@@ -210,7 +236,16 @@ footer {
 .footer-menu li {
     color:white;
     margin-bottom: 10px;
-    font-size:1rem;
+    font-size:0.7rem;
+}
+
+.fine {
+    color: white;
+    padding-left: 90px;
+    gap:10px;
+}
+.footer-border {
+    border-top:1px solid white;
 }
 
 
