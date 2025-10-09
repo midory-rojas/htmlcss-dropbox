@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width:100%;
+}
+
 ul{
     list-style: none;
 }
@@ -37,14 +41,19 @@ body {
 
 /* Layout */
 .container {
-    width:80%;
-    max-width: 800px;
+    width:70%;
+    max-width: 900px;
     margin:0 auto;
-
+}
+.container-grande {
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 /* debug */
     /* border:1px solid black; */
-}
+
 
 /* Utilities */
 .flex {
@@ -53,6 +62,14 @@ body {
 
 .g-18 {
     gap:18px;
+}
+
+.bg-blue {
+    background-color: rgb(186, 216, 228);
+}
+
+.text {
+    text-align: center;
 }
 
 .justify-between {
@@ -67,6 +84,10 @@ body {
     padding-bottom: 30px;
 }
 
+.py-20 {
+    padding-bottom: 20px;
+}
+
 
 /* HEADER */
 header{
@@ -75,35 +96,16 @@ header{
     display:flex;
     justify-content: space-between;
     padding: 25px;
-
 }
 
 
 /* MAIN */
 /* Hero section */
+  .hero-section {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
 
-.hero-section {
-    background-color: rgb(167, 204, 219);
-    padding: 40px 0;
-
-}
-
-.hero-content {
-    width: 70%;
-    max-width: 700px;
-    margin:0 auto;
-    
-
-/* debug */
-    min-height: 300px;
-    background-color: rgb(194, 187, 187);
-    border:1px solid black;    
-}
-
-
-section {
-    border: 1px solid purple;
-}
 
 .col{
     width: calc(100% / 3);
@@ -136,21 +138,18 @@ border:1px solid black;
 
 /* immagine content */
 .col-60 {
-    width:60%;
-
-/* debug */
-    background-color: rgb(216, 202, 216);
-    min-height:350px; 
-    border: 1px solid black;
+    width:60%;    
 }
 
 .col-40 {
     width:40%;
 
-/* debug */
-    background-color: rgb(220, 231, 220);
-    min-height:350px;
-    border: 1px solid black;
+}
+.col-text {
+    width:30%;
+}
+.col-image {
+    width:70%;
 }
 
 
