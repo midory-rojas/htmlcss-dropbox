@@ -15,10 +15,13 @@ ul{
 
 
 a {
-    color: black;
     text-decoration: none;
+    color: rgb(157, 152, 152);
 }
 
+.text-color {
+    color:black;
+}
 /* COMMON */
 /* Typography */
 body {
@@ -57,9 +60,6 @@ body {
     margin: 0 auto;
 }
 
-/* debug */
-    /* border:1px solid black; */
-
 
 /* Utilities */
 .flex {
@@ -96,7 +96,9 @@ body {
 .mb-20 {
     margin-bottom: 20px;
 }
-
+.text-left {
+    text-align: left;
+}
 
 
 
@@ -180,35 +182,36 @@ border:1px solid black;
 }
 
 
-/* debug */
-.aditional-info {
-    text-align: left;
 
-/* debug */ 
-    background-color: rgb(221, 231, 221);
-    border:1px solid black;
-    min-height:100px;    
-}
+
+
 
 
 /* FOOTER */
 
 .small {
     min-height:200px;
-    border:1px solid black;
     width:calc(100% / 5);
+    color:white;
 
  /* debug */ 
-    background-color: rgb(238, 238, 226);   
+   
 }
 
 footer {
     background-color: black;
+    
+}
+
+.footer-menu-tittle {
     color:white;
+    font-size:1.8rem;
+}
+.footer-menu li {
+    color:white;
+    margin-bottom: 10px;
+    font-size:1rem;
 }
 
 
-/* debug */ 
-.bot {
-    border: 1px solid white;
-}
+
