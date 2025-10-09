@@ -9,8 +9,10 @@ ul{
     list-style: none;
 }
 
-.bg-green {
-    background-color: rgb(229, 238, 229);
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 /* COMMON */
@@ -22,14 +24,18 @@ ul{
     max-width: 800px;
     margin:0 auto;
 
+
 /* debug */
     /* border:1px solid black; */
 }
 
 /* Utilities */
 .flex {
-    display:flex;
-    flex-direction: row;
+    display:flex;    
+}
+
+.g-10 {
+    gap:10px;
 }
 
 .justify-between {
@@ -43,23 +49,13 @@ ul{
 
 /* HEADER */
 header{
-    background-color: rgb(195, 213, 158);
+    background-color: white;
     height: 80px;
     display:flex;
-    align-items: center;
-}
-.header-logo,
-.header-actions {
-    width:20%;    
+    justify-content: space-between;
+    padding: 25px;
 }
 
-.header-actions {
-    text-align: right;
-}
-
-header ul.flex {
-    gap:20px;
-}
 
 /* MAIN */
 /* Hero section */
@@ -67,18 +63,22 @@ header ul.flex {
 .hero-section {
     background-color: rgb(167, 204, 219);
     padding: 40px 0;
+
 }
 
 .hero-content {
     width: 70%;
     max-width: 700px;
     margin:0 auto;
+    
 
 /* debug */
     min-height: 300px;
     background-color: rgb(194, 187, 187);
     border:1px solid black;    
 }
+
+
 section {
     border: 1px solid purple;
 }
