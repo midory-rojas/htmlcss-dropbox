@@ -37,6 +37,12 @@ body {
     color: white;
 }
 
+.btn-light {
+    background-color: white;
+    color: black;
+    border:1px solid black;
+}
+
 
 
 /* Layout */
@@ -87,6 +93,11 @@ body {
 .py-20 {
     padding-bottom: 20px;
 }
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
 
 
 /* HEADER */
@@ -165,7 +176,7 @@ border:1px solid black;
 
 /* debug */
     min-height:200px;
-    border:1px solid black;
+   
 }
 
 
