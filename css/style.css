@@ -16,6 +16,23 @@ a {
 }
 
 /* COMMON */
+/* Typography */
+body {
+    font-family: sans-serif;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 6px 14px;
+}
+
+.btn-blue {
+    background-color: rgb(43, 101, 201);
+    color: white;
+}
+
 
 
 /* Layout */
@@ -34,12 +51,16 @@ a {
     display:flex;    
 }
 
-.g-10 {
-    gap:10px;
+.g-18 {
+    gap:18px;
 }
 
 .justify-between {
      justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
 }
 .py-30 {
     padding-top:30px;
@@ -54,6 +75,7 @@ header{
     display:flex;
     justify-content: space-between;
     padding: 25px;
+
 }
 
 
