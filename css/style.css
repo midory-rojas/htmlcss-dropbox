@@ -28,6 +28,10 @@ body {
     font-family: sans-serif;
 }
 
+.font-85rem {
+    font-size: 0.85rem;
+}
+
 .text-gray {
     color: var(--gray-color);
 }
